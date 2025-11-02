@@ -1,3 +1,5 @@
+// https://react.dev/learn/tutorial-tic-tac-toe
+
 import { useState } from 'react';
 
 export default function Board() {
@@ -5,8 +7,7 @@ export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null))
 
   function handleClick() {
-    squares[0] = "X";
-    console.log("What")
+    
   }
 
   return(
